@@ -15,9 +15,9 @@ The {gcd} package offers two functions:
 - `gcd()`: greatest common divisor of two numbers.
 - `lcm()`: least common multiple of two numbers.
 
-The main purpose of this repo is to show how to build a maximally simple R package:
+The **main purpose** of this repo is to show how to **build a simple R package**:
 
-1. Put all functions into one or more R scripts in folder "R".
+1. Put all functions into one or more R scripts in folder "R"
 2. Document them with Roxygen
 3. Go through script "packaging.R"
 
