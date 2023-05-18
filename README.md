@@ -3,7 +3,7 @@
 <!-- badges: start -->
 
 [![CRAN status](http://www.r-pkg.org/badges/version/gcd)](https://cran.r-project.org/package=gcd)
-[![R-CMD-check](https://github.com/mayer79/gcd/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/mayer79/gcd/actions)
+[![R-CMD-check](https://github.com/mayer79/gcd/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/mayer79/gcd/actions)
 [![Codecov test coverage](https://codecov.io/gh/mayer79/gcd/branch/main/graph/badge.svg)](https://app.codecov.io/gh/mayer79/gcd?branch=main)
 
 <!-- badges: end -->
@@ -14,6 +14,18 @@ The {gcd} package offers two functions:
 
 - `gcd()`: greatest common divisor of two numbers.
 - `lcm()`: least common multiple of two numbers.
+
+The main purpose of this repo is to show how to build a maximally simple R package:
+
+1. Put all functions into one or more R scripts in folder "R".
+2. Document them with Roxygen
+3. Go through script "packaging.R"
+
+To test it yourself:
+
+1. Clone repo
+2. Delete everything except "R/gcd" and script "packaging.R"
+3. Go through script "packaging.R" 
 
 ## Installation
 
