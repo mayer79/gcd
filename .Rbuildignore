@@ -1,0 +1,6 @@
+^LICENSE\.md$
+^packaging.R$
+[.]Rproj$
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$

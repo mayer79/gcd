@@ -1,0 +1,44 @@
+---
+title: "gcd"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{gcd}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Overview
+
+The {gcd} package offers two functions:
+
+- `gcd()`: greatest common divisor of two numbers.
+- `lcm()`: least common multiple of two numbers.
+
+## Installation
+
+You can install the development version of gcd from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("mayer79/gcd")
+```
+
+## Usage
+
+```{r}
+library(gcd)
+
+a <- 123
+b <- 10947
+
+gcd(a, b)
+
+lcm(a, b)
+```
