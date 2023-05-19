@@ -8,9 +8,11 @@
 #' 
 #' @param a Positive integer.
 #' @param b Positive integer.
+#' @returns Positive integer.
 #' @export
 #' @examples
 #' gcd(6, 8)
+#' gcd(234987, 83268113424)
 #' @seealso [lcm()]
 gcd <- function(a, b) {
   stopifnot(
@@ -36,6 +38,7 @@ gcd <- function(a, b) {
 #' Calculates the least common multiple of two positive integers.
 #' 
 #' @inheritParams gcd
+#' @inherit gcd return
 #' @export
 #' @examples
 #' lcm(45, 18)

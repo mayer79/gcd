@@ -11,6 +11,9 @@ lcm(a, b)
 
 \item{b}{Positive integer.}
 }
+\value{
+Positive integer.
+}
 \description{
 Calculates the least common multiple of two positive integers.
 }

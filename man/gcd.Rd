@@ -11,11 +11,15 @@ gcd(a, b)
 
 \item{b}{Positive integer.}
 }
+\value{
+Positive integer.
+}
 \description{
 Calculates the greatest common divisor of two positive integers.
 }
 \examples{
 gcd(6, 8)
+gcd(234987, 83268113424)
 }
 \seealso{
 \code{\link[=lcm]{lcm()}}
